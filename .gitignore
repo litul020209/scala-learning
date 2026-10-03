@@ -26,7 +26,12 @@ out/
 bin/
 !**/src/main/**/bin/
 !**/src/test/**/bin/
-
+.bloop/
+.bsp/
+.metals/
+project/metals.sbt
+project/project/
+backup/
 ### NetBeans ###
 /nbproject/private/
 /nbbuild/
