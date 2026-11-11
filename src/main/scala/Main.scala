@@ -1,5 +1,13 @@
 object Main {
   def main(args: Array[String]): Unit = {
-    println("Hello Scala!")
+
+    var  s = "Hello"
+    
+    var l = s.length
+
+    println(s.substring(1,l -1))
+
+    println(s(l-1))
+
   }
 }

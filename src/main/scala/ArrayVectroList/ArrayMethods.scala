@@ -1,6 +1,7 @@
 package ArrayVectroList
 
 object ArrayMethods extends App {
+  
   var arr = Array(1,2,3,4)
   println(arr.mkString)
   println(arr(0))

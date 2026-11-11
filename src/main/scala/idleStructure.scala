@@ -1,40 +1,40 @@
-class Student(val name: String, val age: Int) {
+// class Student(val name: String, val age: Int) {
 
-  // Instance Variable
-  private var marks: Int = 0
+//   // Instance Variable
+//   private var marks: Int = 0
 
-  // Instance Method
-  def setMarks(m: Int): Unit = {
-    marks = m
-  }
+//   // Instance Method
+//   def setMarks(m: Int): Unit = {
+//     marks = m
+//   }
 
-  def display(): Unit = {
-    println(s"Name : $name")
-    println(s"Age  : $age")
-    println(s"Marks: $marks")
-  }
-}
+//   def display(): Unit = {
+//     println(s"Name : $name")
+//     println(s"Age  : $age")
+//     println(s"Marks: $marks")
+//   }
+// }
 
-object Student {
+// object Student {
 
-  // Companion Object Variable
-  val schoolName: String = "ABC School"
+//   // Companion Object Variable
+//   val schoolName: String = "ABC School"
 
-  // Companion Object Method
-  def welcomeMessage(): Unit = {
-    println("Welcome to Student Management System")
-  }
-}
+//   // Companion Object Method
+//   def welcomeMessage(): Unit = {
+//     println("Welcome to Student Management System")
+//   }
+// }
 
-object Main extends App {
+// object Main extends App {
 
-  Student.welcomeMessage()
+//   Student.welcomeMessage()
 
-  val student1 = new Student("Biswa", 22)
+//   val student1 = new Student("Biswa", 22)
 
-  student1.setMarks(85)
+//   student1.setMarks(85)
 
-  student1.display()
+//   student1.display()
 
-  println(Student.schoolName)
-}
+//   println(Student.schoolName)
+// }

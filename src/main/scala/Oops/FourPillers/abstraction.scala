@@ -1,11 +1,11 @@
-package Oops.FourPillers
+// package Oops.FourPillers
 
-object abstraction extends App{
+// object abstraction extends App{
 
-}
-class Person(name:String):
-end Person
+// }
+// class Person(name:String):Unit = 
+// end Person
 
-trait mamal {
-  def birth (obj:Person) :Unit
-}
+// trait mamal {
+//   def birth (obj:Person) :Unit
+// }

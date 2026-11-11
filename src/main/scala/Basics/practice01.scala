@@ -7,5 +7,12 @@ object practice01 extends  App{
 //  print it
   val age:Int = 10
   println(age)
+
+  var year = 2026.0
+
+  year = 20
+
+  println(year) 
+
   
 }

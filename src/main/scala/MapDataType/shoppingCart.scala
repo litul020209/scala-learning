@@ -9,12 +9,15 @@ object shoppingCart extends App{
     "Orange" -> 60.0,
     "Grapes" -> 120.0
   )
+
+  
   val cart = List("Apple", "Mango", "Apple", "Banana", "Grapes", "Mango")
 
 //  total bill
   var total:Int = 0
   var uniqueItems = List[String]()
   var expensive:Int = 0
+  
   for ( c <- cart) {
       val n:Int = prices(c).toInt
       if ( n > expensive){
@@ -25,6 +28,7 @@ object shoppingCart extends App{
       if (!uniqueItems.contains(c)) {
         uniqueItems = uniqueItems :+ c
     }
+
   }
   println(total)
   println(uniqueItems.mkString("[",",","]"))

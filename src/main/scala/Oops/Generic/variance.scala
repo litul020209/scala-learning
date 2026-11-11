@@ -1,6 +1,6 @@
-package Oops.Generic
+// package Oops.Generic
 
-object variance extends App{
+// object variance extends App{
 
 //
 //  class Animal
@@ -24,16 +24,16 @@ object variance extends App{
 //  val covAnimalBox: CovBox[Animal] = covDogBox
 //
 //  println("Covariant works: " + covAnimalBox.value)
-class Box[A](var content: A)
+// class Box[A](var content: A)
 
-  abstract class Animal:
-    def name: String
+//   abstract class Animal:
+//     def name: String
 
-  case class Cat(name: String) extends Animal
-  case class Dog(name: String) extends Animal
+//   case class Cat(name: String) extends Animal
+//   case class Dog(name: String) extends Animal
 
-  val myAnimal: Cat = Cat("Felix")
-  val myCatBox: Box[Cat] = Box[Cat](myAnimal)
+//   val myAnimal: Cat = Cat("Felix")
+//   val myCatBox: Box[Cat] = Box[Cat](myAnimal)
 //  val myAnimalBox: Box[Animal] =  // this doesn't compile
 //  val myAnimal: Animal = myAnimalBox.content
-}
+// }

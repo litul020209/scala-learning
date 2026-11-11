@@ -1,6 +1,9 @@
 package PatternPrint
+
 import scala.io.StdIn._
+
 object numberTriangle extends App{
+   
    print("Enter the r: ")
    val r = readInt()
 
