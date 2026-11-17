@@ -19,6 +19,7 @@ object CapitalizeWord extends App {
             var res = y + x.substring(1,l-1) + z
 
             ans = ans + res + " "
+            
         }
         
         ans

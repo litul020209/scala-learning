@@ -1,13 +1,28 @@
 object Main {
+
   def main(args: Array[String]): Unit = {
 
-    var  s = "Hello"
+    var  s = "Heelole"
     
-    var l = s.length
+    var eIndex = Array[Int]()
 
-    println(s.substring(1,l -1))
+    for (i <- 0 to s.length-1){
+      if (s(i) == 'e'){
+        eIndex :+ i
+      }
+    }
+    
+    var p = eIndex(0)
 
-    println(s(l-1))
+    var ans : Array[Int] = Array[Int]()
+
+    for ( i <- 0 to s.length - 1 ){
+
+        if (s(i) != 'e') {
+           
+        }
+
+    }
 
   }
 }
